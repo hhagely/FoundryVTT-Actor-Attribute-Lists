@@ -1,18 +1,13 @@
 {
 	"name": "actor-attribute-lists",
 	"title": "Actor Attribute Lists",
-	"description": "A macro that displays the data fields usable in roll commands (e.g. @abilities.str.mod) for the selected actor.",
-	"author": "relick",
-	"version": "0.0.5",
+	"description": "A macro that displays the data fields usable in roll commands (e.g. @abilities.str.mod) for the selected actor. This is a fork of relick's module that includes horizontal scrolling on the tabbed attribute list (https://github.com/relick/FoundryVTT-Actor-Attribute-Lists)",
+	"author": "hagelyh",
+	"version": "0.0.1",
 	"minimumCoreVersion": "0.6.0",
 	"compatibleCoreVersion": "0.6.4",
-
-	"scripts": [
-		"./scripts/attribute-display.js"
-	],
-	"styles": [
-		"./styles/attribute-display.css"
-	],
+	"scripts": ["./scripts/attribute-display.js"],
+	"styles": ["./styles/attribute-display.css"],
 	"languages": [
 		{
 			"lang": "en",
@@ -22,13 +17,13 @@
 	],
 	"packs": [
 		{
-		  "name": "actor-attribute-list-macro",
-		  "label": "Actor Attribute Lists Macro",
-		  "path": "./packs/actor-attribute-list-macro.db",
-		  "entity": "Macro"
+			"name": "actor-attribute-list-macro",
+			"label": "Actor Attribute Lists Macro",
+			"path": "./packs/actor-attribute-list-macro.db",
+			"entity": "Macro"
 		}
 	],
-	"url": "https://github.com/relick/FoundryVTT-Actor-Attribute-Lists",
-	"manifest": "https://raw.githubusercontent.com/relick/FoundryVTT-Actor-Attribute-Lists/master/module.json",
-	"download": "https://github.com/relick/FoundryVTT-Actor-Attribute-Lists/archive/0.0.5.zip"
+	"url": "https://github.com/hhagely/FoundryVTT-Actor-Attribute-Lists",
+	"manifest": "https://raw.githubusercontent.com/hhagely/FoundryVTT-Actor-Attribute-Lists/master/module.json",
+	"download": "https://github.com/hhagely/FoundryVTT-Actor-Attribute-Lists/archive/0.0.1.zip"
 }
