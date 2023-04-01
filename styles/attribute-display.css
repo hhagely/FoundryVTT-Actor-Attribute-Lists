@@ -1,9 +1,15 @@
 /* navigation */
 
+.actor-attribute-display-navigation {
+	display: grid;
+	flex-direction: row;
+	justify-content: flex-start;
+	overflow-x: auto;
+}
+
 .actor-attribute-display .actor-attribute-display-navigation {
 	font-family: 'Signika', sans-serif;
 	margin: 0;
-	overflow-x: auto;
 }
 
 .actor-attribute-display .actor-attribute-display-navigation .item {
