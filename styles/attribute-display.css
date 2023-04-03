@@ -1,7 +1,7 @@
 /* navigation */
 
 .actor-attribute-display-navigation {
-	display: grid;
+	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	overflow-x: auto;
